@@ -161,7 +161,7 @@ export async function execute(
 ): Promise<void> {
   if (options.development) {
     // In dev mode -> use ts-node and dev plugins
-    process.env.NODE_ENV = 'development'
+    // process.env.NODE_ENV = 'development'
     require('ts-node').register({
       project: getTsConfigPath(options.dir, options.type),
     })
