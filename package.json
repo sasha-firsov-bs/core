@@ -1,7 +1,7 @@
 {
   "name": "@oclif/core",
   "description": "base library for oclif CLIs",
-  "version": "2.9.30",
+  "version": "2.9.31",
   "author": "Salesforce",
   "bugs": "https://github.com/oclif/core/issues",
   "dependencies": {
@@ -108,7 +108,7 @@
     "access": "public"
   },
   "scripts": {
-    "build": "shx rm -rf lib && tsc",
+    "build": "shx rm -rf lib && tsc && tsc -p tsconfig-esm.json",
     "commitlint": "commitlint",
     "lint": "eslint . --ext .ts --config .eslintrc",
     "posttest": "yarn lint",

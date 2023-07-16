@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "forceConsistentCasingInFileNames": true,
+    "importHelpers": true,
+    "module": "ESNext",
+    "outDir": "./lib-esm",
+    "pretty": true,
+    "rootDirs": [
+      "./src"
+    ],
+    "strict": true,
+    "target": "ESNext",
+    "allowSyntheticDefaultImports": true,
+    "noErrorTruncation": true,
+    "moduleResolution": "nodenext"
+  },
+  "include": [
+    "./src/**/*"
+  ]
+}
