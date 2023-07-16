@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { URL } from 'url';
+import { URL } from 'node:url';
 import { Arg, ArgDefinition } from './interfaces/parser';
 /**
  * Create a custom arg.

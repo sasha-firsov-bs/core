@@ -1,4 +1,4 @@
-import { URL } from 'url';
+import { URL } from 'node:url';
 import { dirExists, fileExists, isNotFalsy } from './util';
 export function custom(defaults) {
     return (options = {}) => {

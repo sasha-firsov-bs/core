@@ -1,4 +1,4 @@
-import { URL } from 'url';
+import { URL } from 'node:url';
 import { Help } from './help';
 import { dirExists, fileExists } from './util';
 export function custom(defaults) {

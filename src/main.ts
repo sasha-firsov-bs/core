@@ -1,9 +1,9 @@
-import {fileURLToPath} from 'url'
+import {fileURLToPath} from 'node:url'
 
 import {format, inspect} from 'util'
 
 import * as Interfaces from './interfaces'
-import {URL} from 'url'
+import {URL} from 'node:url'
 import {Config} from './config'
 import {getHelpFlagAdditions, loadHelpClass, normalizeArgv} from './help'
 import {settings} from './settings'

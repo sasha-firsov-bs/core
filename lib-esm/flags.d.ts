@@ -1,5 +1,5 @@
 /// <reference types="node" />
-import { URL } from 'url';
+import { URL } from 'node:url';
 import { BooleanFlag } from './interfaces';
 import { FlagDefinition, OptionFlagDefaults, FlagParser } from './interfaces/parser';
 /**

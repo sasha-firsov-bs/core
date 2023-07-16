@@ -2,7 +2,7 @@ import { CLIError, error, exit, warn } from '../errors';
 import * as ejs from 'ejs';
 import * as os from 'os';
 import * as path from 'path';
-import { fileURLToPath, URL } from 'url';
+import { fileURLToPath, URL } from 'node:url';
 import { format } from 'util';
 import * as Plugin from './plugin';
 import { Debug, compact, loadJSON, collectUsableIds, getCommandIdPermutations } from './util';
