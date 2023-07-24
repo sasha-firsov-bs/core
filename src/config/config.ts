@@ -2,7 +2,7 @@ import {CLIError, error, exit, warn} from '../errors'
 import * as ejs from 'ejs'
 import * as os from 'os'
 import * as path from 'path'
-import {fileURLToPath, URL} from 'url'
+import {fileURLToPath, URL} from 'node:url'
 import {format} from 'util'
 
 import {Options, Plugin as IPlugin} from '../interfaces/plugin'

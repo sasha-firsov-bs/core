@@ -2,7 +2,7 @@ import {CLIError} from './cli'
 import {OclifError} from '../../interfaces'
 
 export class ModuleLoadError extends CLIError implements OclifError {
-  oclif!: { exit: number }
+  // oclif!: { exit: number }
 
   code = 'MODULE_NOT_FOUND'
 

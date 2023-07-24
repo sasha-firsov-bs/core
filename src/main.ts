@@ -1,9 +1,9 @@
-import {fileURLToPath} from 'url'
+import {fileURLToPath} from 'node:url'
 
 import {format, inspect} from 'util'
 
 import * as Interfaces from './interfaces'
-import {URL} from 'url'
+import {URL} from 'node:url'
 import {Config} from './config'
 import {getHelpFlagAdditions, loadHelpClass, normalizeArgv} from './help'
 import {settings} from './settings'
@@ -161,7 +161,7 @@ export async function execute(
 ): Promise<void> {
   if (options.development) {
     // In dev mode -> use ts-node and dev plugins
-    process.env.NODE_ENV = 'development'
+    // process.env.NODE_ENV = 'development'
     require('ts-node').register({
       project: getTsConfigPath(options.dir, options.type),
     })
